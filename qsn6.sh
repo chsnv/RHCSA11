@@ -1,8 +1,7 @@
 #!/bin/bash
 for i in u11 u22 u33; do #u44 u44 u55... istənilən qədər işləyəcək
         if grep -q $i /etc/passwd; then
-        echo "$i useri mövcuddur, Silinsin? Hə/yox"
-        read cavab;
+        read -p "$i useri mövcuddur, Silinsin? Hə/yox" cavab
                 case $cavab in
                 Hə)
                  userdel -r $i;
