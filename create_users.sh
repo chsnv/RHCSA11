@@ -1,5 +1,5 @@
 #!/bin/bash
-paste usernames passwords | while read i j 
+paste usernames passwords | while read i j #full path  ~/pass OR user 
 do if grep -q "$i" /etc/passwd; then
 	echo "$i does exist!!!"
 else
