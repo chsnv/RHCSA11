@@ -8,4 +8,4 @@ elif [ $n -gt 100 ] 2>/dev/null && [ $n -lt 200 ]; then
     echo "$n bingo"
 else 
     echo "Enter a number between 100 & 200"    
-fi            
+fi 
