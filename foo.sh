@@ -9,4 +9,3 @@ elif [ $1 = redhat ]; then
 else
 		echo "/root/foo.sh redhat|fedora"
 fi       
-
